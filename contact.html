@@ -1,7 +1,7 @@
 ---
-title: Contact
-heading: Get in touch today
-subtitle: We'd love to help your business.
+title: 联系我们
+heading: 现在就与我们取得联系
+subtitle: 我们会第一时间答复您的消息.
 map:
   latitude: -45.8787605
   longitude: 170.5027976
@@ -9,7 +9,7 @@ map:
   zoom: 13
 ---
 
-<section class="diagonal">
+<!--section class="diagonal">
 	<div class="container">
 		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 			<input type="hidden" name="_to" value="support@example.com" />
@@ -36,11 +36,7 @@ map:
 			<input type="submit" value="Send Message" />
 		</form>
 	</div>
-</section>
-
-<section class="diagonal map">
-	<div id="gmap_canvas"></div>
-</section>
+</section-->
 
 <section class="diagonal">
 	<div class="container halves aligned-top">
@@ -53,6 +49,10 @@ map:
 			<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
 		</div>
 	</div>
+</section>
+
+<section class="diagonal map">
+	<div id="gmap_canvas"></div>
 </section>
 
 <script type="text/javascript">
