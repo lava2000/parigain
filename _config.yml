@@ -1,17 +1,17 @@
 title: Urban Template
 url: "https://teal-worm.cloudvent.net"
-baseurl:
+baseurl: "https://www.parigain.com"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: 横琴均成资产管理有限公司.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
-  email:
+  name:均成资产
+  email:siwei@parigain.com
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
